@@ -97,6 +97,43 @@ ul > li {
     border-radius: 10px;
 }
 
+/* MAIN */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.main .main-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 36px 0;
+}
+
+.main .main-list {
+    display: flex;
+}
+
+.main .main-list_item {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.main-list_item-box {
+    width: 100%;
+    height: 150px;
+    border: #3882F6 5px solid;
+    border-radius: 10px;
+}
+
+.main-list_item-content {
+    font-size: 18px;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
