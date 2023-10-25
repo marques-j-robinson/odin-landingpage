@@ -96,3 +96,11 @@ ul > li {
     padding: 6px 24px;
     border-radius: 10px;
 }
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 36px 0;
+}
