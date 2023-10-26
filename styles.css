@@ -40,13 +40,6 @@ ul > li {
     color: #1F2937
 }
 
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1F2937;
-}
-
 /* CONTAINER */
 .container {
     max-width: 960px;
@@ -132,6 +125,50 @@ ul > li {
     font-size: 18px;
     color: #1F2937;
     margin-bottom: 24px;
+}
+
+/* QUOTE */
+.quote {
+    padding: 96px 0;
+}
+
+.quote .container {
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* Call To Action */
+.cta {
+    margin: 96px auto;
+    padding: 48px 96px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-btn {
+    color: #F9FAF8;
+    border: 2px #F9FAF8 solid;
+    border-radius: 10px;
+    padding: 5px 24px;
 }
 
 /* FOOTER */
