@@ -30,11 +30,6 @@ ul > li {
 
 /* Font Styles */
 
-.logo a {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .secondary-text {
     font-size: 36px;
     font-weight: 800;
@@ -55,7 +50,12 @@ ul > li {
     padding: 18px 0;
 }
 
-.navbar .navbar-link a {
+.navbar__logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar__link a {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 24px;
@@ -68,23 +68,23 @@ ul > li {
     padding: 120px 0;
 }
 
-.hero .hero-content {
+.hero__inner {
     width: 50%;
 }
 
-.hero .hero-content .hero-content_header {
+.hero__title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.hero .hero-content .hero-content_main {
+.hero__text {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 24px;
 }
 
-.hero .hero-content .hero-content_cta-btn {
+.btn--hero {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 6px 24px;
@@ -92,37 +92,37 @@ ul > li {
 }
 
 /* MAIN */
-.main {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 96px;
 }
 
-.main .main-title {
+.content__title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
     margin: 36px 0;
 }
 
-.main .main-list {
+.content__list {
     display: flex;
 }
 
-.main .main-list_item {
+.content__item {
     text-align: center;
     padding: 0 40px;
 }
 
-.main-list_item-box {
+.content__item-box {
     width: 100%;
     height: 150px;
     border: #3882F6 5px solid;
     border-radius: 10px;
 }
 
-.main-list_item-content {
+.content__item-text {
     font-size: 18px;
     color: #1F2937;
     margin-bottom: 24px;
@@ -137,14 +137,14 @@ ul > li {
     max-width: 800px;
 }
 
-.quote-text {
+.quote__text {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
 }
 
-.quote-author {
+.quote__author {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -165,7 +165,7 @@ ul > li {
     color: #F9FAF8;
 }
 
-.cta-btn {
+.btn--cta {
     color: #F9FAF8;
     border: 2px #F9FAF8 solid;
     border-radius: 10px;
